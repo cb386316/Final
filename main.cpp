@@ -1,4 +1,6 @@
 
+//@author: Connor Barber 
+
 #include <iostream>
 
 using namespace std;
