@@ -1,0 +1,8 @@
+#makeFile
+#make executable count from program
+all:
+     gcc -o count main.cc
+
+clean:
+
+rm -f main.cc
