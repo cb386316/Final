@@ -1,7 +1,6 @@
 
-//@author: Connor Barber 
-
 #include <iostream>
+#include <string>
 
 using namespace std;
 
@@ -11,9 +10,9 @@ int countChar(string text);
 
 
 /**
- * @brief: counts lines in a string
  * @function: countLine
  * @param: string text
+  * @brief: counts lines in a string
  */
 int countLine(string text){
 	int counter = 0;
@@ -27,27 +26,18 @@ int countLine(string text){
 }
 
 /**
- * @brief: counts characters in a string
  * @function: countChar
+  * @brief: counts characters in a string
  * @param: string text
  */
 int countChar(string text){
-	char conversion[100];
-	int i;
-	int counter= 0;
-	for (i = 0; conversion[i] != '\0'; i++) {
-		if (conversion[i] != ' ')// this condition is used to avoid counting space
-		{
-					++counter;
-		}
-	}
-
-		return counter;
+	
+		return text.length();
 }
 
 /**
- * @brief: main for the program
  * @function: main
+  * @brief: main for the program
  */
 
 int main() {
